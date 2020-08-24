@@ -3,7 +3,7 @@
     simple example build file for hello+travis project
   </description>
   <!-- set global properties for this build -->
-  property name="src" location="src"/>
+  <property name="src" location="src"/>
   <path id="classpath">
       <fileset dir="." includes="junit-4.10.jar"/>
   </path>
